@@ -1,6 +1,9 @@
 import streamlit as st
 import hashlib
 
+st.set_page_config(
+    page_title = "Block Cipher", page_icon="🔐",layout = "wide")
+
 # Function to hash the text and display individual character hashes
 def hash_text(text):
     hashed_chars = {}
