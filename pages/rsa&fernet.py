@@ -4,6 +4,8 @@ from cryptography.hazmat.primitives.asymmetric import rsa
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.asymmetric import padding
 
+st.set_page_config(
+    page_title = "RSA & Fernet", page_icon="🔐",layout = "wide")
 
 # Fernet Functions
 def generate_fernet_key():
